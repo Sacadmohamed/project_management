@@ -2,7 +2,7 @@
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Tools/Languages Used](#toolslanguages-used)
-- [Installation Guidelines:](#installationguidelines:)
+- [Installation Guidelines](#installationguidelines)
 - [API Documentation](#apidocumentation)
 
 ### Project Overview
@@ -15,7 +15,7 @@ The Project Management System is a web application that allows users to manage p
 - Styling: CSS
 
 
-### Installation Guidelines:
+### Installation Guidelines
 #### BackEnd
 Setting the working directory as the backend
 ```Terminal
