@@ -77,3 +77,27 @@ Routes
 - GET /api/projects/{id}: Retrieve a specific project by ID.
 - PUT /api/projects/{id}: Update an existing project by ID.
 - DELETE /api/projects/{id}: Delete a project by ID.
+
+
+### Request and Response Formats
+#### Create Project (POST /api/projects):
+Request Body:
+```json
+{
+  "name": "Project Name",
+  "description": "Project Description",
+  "status": "active"
+}
+```
+
+Response:
+```json
+{
+  "id": 1,
+  "name": "Project Name",
+  "description": "Project Description",
+  "status": "active",
+  "created_at": "2023-01-01T00:00:00.000000Z",
+  "updated_at": "2023-01-01T00:00:00.000000Z"
+}
+```
