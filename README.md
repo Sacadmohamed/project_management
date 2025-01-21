@@ -16,7 +16,7 @@ The Project Management System is a web application that allows users to manage p
 ### Installation Guidelines:
 #### BackEnd
 Setting the working directory as the backend
-```
+```Terminal
 cd C:\xampp\htdocs\Project Management\project-management-api
 ```
 
