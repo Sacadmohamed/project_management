@@ -107,20 +107,20 @@ Response:
 #### ProjectForm.js
 - Description: A form for creating and updating projects.
 - Props:
-onSubmit: Function to handle form submission.
-existingProject: Optional project data for editing.
+   - onSubmit: Function to handle form submission.
+   - existingProject: Optional project data for editing.
 
 #### ProjectTable.js
 - Description: Displays a table of projects with options to edit or delete.
 - Props:
-projects: Array of project objects.
-onDelete: Function to handle project deletion.
-onUpdate: Function to handle project updates.
+   - projects: Array of project objects.
+   - onDelete: Function to handle project deletion.
+   - onUpdate: Function to handle project updates.
 
 #### App.js
 - Description: Main application component that manages state and renders ProjectForm and ProjectTable.
 - Functions:
-fetchProjects: Retrieves the list of projects from the API.
-addProject: Adds a new project.
-updateProject: Updates an existing project.
-deleteProject: Deletes a project.
+   - fetchProjects: Retrieves the list of projects from the API.
+   - addProject: Adds a new project.
+   - updateProject: Updates an existing project.
+   - deleteProject: Deletes a project.
