@@ -124,3 +124,13 @@ Response:
    - addProject: Adds a new project.
    - updateProject: Updates an existing project.
    - deleteProject: Deletes a project.
+
+
+### Database Structure
+#### Projects Table
+- id: Primary Key (Integer, Auto Increment)
+- name: Project Name (String)
+- description: Project Description (Text)
+- status: Project Status (Enum: 'active', 'inactive', 'completed')
+- created_at: Timestamp
+- updated_at: Timestamp
