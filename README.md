@@ -44,10 +44,14 @@ php artisan migrate
 
 #### Frontend
 Setting the working directory as the backend
+```
 cd C:\xampp\htdocs\Project Management\project-management-frontend
-installation of the front end Javascript
-npm install
+```
 
+installation of the front end Javascript
+```
+npm install
+```
 
 
 
