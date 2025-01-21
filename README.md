@@ -11,6 +11,12 @@
 ### Project Overview
 The Project Management System is a web application that allows users to manage projects effectively. Users can create, read, update, and delete project details, including the project name, description, and status.
 
+<img width="875" alt="Screenshot_Project_v1" src="https://github.com/user-attachments/assets/86c4eeca-d02b-4139-8241-20f8bdffd428" />
+
+
+![Screenshot_Project_v2](https://github.com/user-attachments/assets/4b076f98-b71d-46c6-8f16-2e42192088cc)
+
+
 ### Tools/Languages Used
 - Backend: Laravel (PHP Framework)
 - Frontend: React.js
