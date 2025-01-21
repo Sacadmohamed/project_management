@@ -21,20 +21,28 @@ cd C:\xampp\htdocs\Project Management\project-management-api
 ```
 
 Installation of the composer
+```
 composer install
+```
 
 Installation of the Laravel PHP framework
+```
 Install Laravel via Composer
+```
 
-Settingup the Environment
+#### Settingup the Environment
+```
 php artisan key:generate
+```
 
 
-Migrate the Database
+#### Migrate the Database
+```
 php artisan migrate
+```
 
 
-Frontend
+#### Frontend
 Setting the working directory as the backend
 cd C:\xampp\htdocs\Project Management\project-management-frontend
 installation of the front end Javascript
@@ -43,9 +51,14 @@ npm install
 
 
 
-Running the Application
+#### Running the Application
 1.	Running the Laravel server
+```
 php artisan serve
+```
+
 2.	Start the React Application
-              npm start
+```
+  	npm start
+```
 
