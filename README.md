@@ -71,9 +71,9 @@ npm start
 
 ### API Documentation
 Routes
-GET /api/user: Retrieve the authenticated user's information.
-GET /api/projects: Fetch all projects.
-POST /api/projects: Create a new project.
-GET /api/projects/{id}: Retrieve a specific project by ID.
-PUT /api/projects/{id}: Update an existing project by ID.
-DELETE /api/projects/{id}: Delete a project by ID.
+- GET /api/user: Retrieve the authenticated user's information.
+- GET /api/projects: Fetch all projects.
+- POST /api/projects: Create a new project.
+- GET /api/projects/{id}: Retrieve a specific project by ID.
+- PUT /api/projects/{id}: Update an existing project by ID.
+- DELETE /api/projects/{id}: Delete a project by ID.
